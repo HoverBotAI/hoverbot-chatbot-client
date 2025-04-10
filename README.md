@@ -12,8 +12,19 @@ A lightweight chatbot widget client for the HoverBot platform. This package prov
 
 ## Installation
 
+Using npm:
 ```bash
 npm install @hoverbot/chatbot-client
+```
+
+Using yarn:
+```bash
+yarn add @hoverbot/chatbot-client
+```
+
+Using pnpm:
+```bash
+pnpm add @hoverbot/chatbot-client
 ```
 
 ## Usage
