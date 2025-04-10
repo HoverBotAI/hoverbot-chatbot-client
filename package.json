@@ -22,5 +22,14 @@
         "typescript": "^5.8.3",
         "undici-types": "^7.7.0",
         "@types/node": "^20.0.0"
-    }
+    },
+    "description": "A lightweight chatbot widget client for the HoverBot platform",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HoverBotAI/hoverbot-chatbot-client.git"
+    },
+    "bugs": {
+        "url": "https://github.com/HoverBotAI/hoverbot-chatbot-client/issues"
+    },
+    "homepage": "https://github.com/HoverBotAI/hoverbot-chatbot-client#readme"
 }

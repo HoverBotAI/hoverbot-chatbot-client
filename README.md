@@ -1,6 +1,6 @@
 # HoverBot Chatbot Client
 
-A lightweight, customizable chatbot widget client for the HoverBot platform. This package provides the core functionality for integrating HoverBot's chatbot capabilities into any web application.
+A lightweight chatbot widget client for the HoverBot platform. This package provides the core functionality for integrating HoverBot's chatbot capabilities into any web application.
 
 ## Features
 
