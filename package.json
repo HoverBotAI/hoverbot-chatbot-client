@@ -1,0 +1,26 @@
+{
+    "name": "@hoverbot/chatbot-client",
+    "version": "0.1.0",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "keywords": [
+        "hoverbot",
+        "chatbot",
+        "widget"
+    ],
+    "author": "HoverBot Team",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^5.8.3",
+        "undici-types": "^7.7.0",
+        "@types/node": "^20.0.0"
+    }
+}
