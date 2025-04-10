@@ -1,26 +1,19 @@
 # HoverBot Chatbot Client
 
-A lightweight client for integrating HoverBot chatbots into your web applications.
+A lightweight, customizable chatbot widget client for the HoverBot platform. This package provides the core functionality for integrating HoverBot's chatbot capabilities into any web application.
+
+## Features
+
+- Easy integration with any web application
+- TypeScript support
+- Lightweight and performant
+- Customizable widget interface
+- Real-time chat capabilities
 
 ## Installation
 
 ```bash
 npm install hoverbot-chatbot-client
-# or
-yarn add hoverbot-chatbot-client
-```
-
-## Configuration
-
-You can configure HoverBot by providing a configuration object:
-
-```typescript
-import { initializeHoverBot } from 'hoverbot-chatbot-client';
-
-initializeHoverBot({
-  chatbotId: 'your-chatbot-id',
-  apiKey: 'your-api-key',
-});
 ```
 
 ## Usage
@@ -28,26 +21,31 @@ initializeHoverBot({
 ```typescript
 import { initializeHoverBot } from 'hoverbot-chatbot-client';
 
-// Initialize with configuration
+// Initialize the chatbot
 initializeHoverBot({
   chatbotId: 'your-chatbot-id',
   apiKey: 'your-api-key'
 });
 ```
 
-## TypeScript Support
+## Configuration
 
-The package includes TypeScript type definitions:
+The client requires two configuration options:
 
 ```typescript
-import { HoverBotConfig } from 'hoverbot-chatbot-client';
-
-const config: HoverBotConfig = {
-  chatbotId: 'your-chatbot-id',
-  apiKey: 'your-api-key'
-};
+interface HoverBotConfig {
+  // Required: Your unique chatbot ID
+  chatbotId: string;
+  
+  // Required: Your API key for authentication
+  apiKey: string;
+}
 ```
 
 ## License
 
-MIT
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Support
+
+For support, please contact the HoverBot team or open an issue in the repository.
